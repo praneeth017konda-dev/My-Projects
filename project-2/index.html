@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NationsBenefits</title>
+    <link href="https://static.nationsbenefits.com/nb-container/css/fonts.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon"
+        href="https://static.nationsbenefits.com/nb-container/images/favicon-nb.ico">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .logo-wrapper {
+            background-color: #fff;
+            padding: 24px 0;
+            text-align: center;
+        }
+
+        body,
+        p {
+            margin: 0;
+            font-family: 'proxima-nova';
+        }
+
+        body {
+            background-color: #212121;
+        }
+
+
+        .carrier-logos {
+            max-width: 184.45px;
+            max-height: 28px;
+            margin: 0 auto;
+        }
+
+        .carrier-logos img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .blue-strip {
+            background-color: #00497A;
+            height: 40px;
+        }
+
+        .content-wrapper {
+            background-image: url(https://nationscdn.azureedge.net/nb-container/images/splashlp/splash-bg.png);
+            background-position: center 65%;
+            background-size: cover;
+            padding: 20px 0;
+            min-height: calc(100vh - 193px);
+            height: inherit;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content-txt {
+            border-radius: 16px;
+            background-color: #FFFFFF;
+            padding: 82px 60px;
+            text-align: center;
+        }
+
+        .content-txt h1 {
+            font-size: 30px;
+            font-weight: 700;
+            letter-spacing: 0.3px;
+            line-height: 30px;
+            margin: 0 0 24px;
+        }
+
+        .content-txt p {
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: 0.3px;
+            line-height: 24px;
+        }
+
+        .content-txt p strong {
+            font-weight: 600;
+        }
+
+        footer {
+            background-color: #003355;
+            padding: 26px 12px;
+            width: 100%;
+        }
+
+        footer p {
+            padding-left: 9px;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 13px;
+            letter-spacing: 0.3px;
+        }
+
+        @media (min-width: 992px) and (max-width: 1439.98px) {
+            .content-txt {
+                padding: 82px 60px;
+                width: 696px;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            .content-txt {
+                padding: 109px 50px;
+                width: 636px;
+            }
+        }
+
+        @media (max-width:767.98px) {
+            .logo-wrapper {
+                padding: 16px 0;
+            }
+
+            .carrier-logos {
+                max-width: 158.09px;
+                max-height: 24px;
+            }
+
+            .blue-strip {
+                height: 16px;
+            }
+
+            .content-txt { 
+                padding: 73px 18px;
+                max-width: 426px;
+                max-height: 284px;
+            }
+
+            .content-wrapper {
+                min-height: calc(100vh - 115px);
+            }
+
+            .content-txt h1 {
+                font-size: 22px;
+                line-height: 22px;
+                margin: 0 0 20px;
+            }
+
+            .content-txt p {
+                font-size: 18px;
+                font-weight: 300;
+                letter-spacing: 0.3px;
+                line-height: 24px;
+            }
+
+            footer {
+                display: flex;
+                justify-content: center;
+                padding: 15px 9px;
+            }
+
+        }
+
+        @media (max-width:450px) {
+            .content-txt {
+                padding: 73px 18px;
+                max-width: 288px;
+                height: 308px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="splash-lp-wrapper">
+        <!-- Header Starts Here-->
+        <div class="logo-wrapper">
+            <div class="carrier-logos"><img
+                    src="https://static.nationsbenefits.com/nb-container/NationsLogos/NB-logo-horiz-c.svg"
+                    alt="NationsBenefits" /></div>
+        </div>
+        <!-- Blue Strip Starts Here -->
+        <div class="blue-strip"></div>
+        <!-- Content Wrapper Starts Here-->
+        <div class="content-wrapper">
+            <div class="content-txt">
+                <h1>Thank you for visiting.</h1>
+                <p>Your benefit period begins on <strong>January 1, 2025.</strong><br /> Please contact your health plan
+                    if you have any questions.</p>
+            </div>
+        </div>
+        <!-- Footer Starts Here -->
+        <footer>
+            <p>
+                &copy;<span id="year"></span> NationsBenefits, LLC. All rights reserved.
+            </p>
+        </footer>
+        <script src="https://static.nationsbenefits.com/mrkt-container/assets/jquery/jquery-3.1.1.min.js"
+            integrity="sha384-5Ru+es+1eJ6FZtb9JCp5uYPCBE19zmF82FPgibn70CGE9WcLPASBsyFMyiD5nRw1" crossorigin="anonymous"
+            type="text/javascript"></script>
+        <script>
+            $(function () {
+                var theYear = new Date().getFullYear();
+                $('#year').html(theYear);
+            });
+        </script>
+    </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,2320 @@
+.main-con-tent-section{
+    margin-top:106px;
+    left:0px;
+    right:0px;
+}
+/*section*/
+*{
+    box-sizing: border-box;
+}
+body, h1, h2, h3, h4, h5, h6, p, a{
+margin:0px;
+font-size: "proxima-nova";
+}
+.header{
+    position: fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    z-index: 9;
+}
+.navbar{
+    background-color:#FFFFFF ;
+    display: flex;
+    justify-content: space-between;
+    max-height: 60px;
+}
+.navbar-left{
+  display: flex;
+  padding:12px 60px; /*126*/
+  align-items: center;
+}
+.logo{
+    display:flex;
+    margin-right: 40px;
+}
+.nb-logo{
+    margin:4px 42.1px 4px 16px;
+
+} 
+.searchbar{
+    display: flex;
+    justify-content: space-between;
+    border:none;
+    border-radius:4px ;
+    background-color:#EAEEF5 ;
+    max-height: 36px;
+}
+.searchbar img{
+    margin:11.5px 10px 10.5px 0px ;
+}
+text{
+    margin:9.5px 8px 8.5px 12px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color:#212121;
+}
+.navbar-actions{
+    margin:12px 60px 12px 126px;
+    display:flex;
+    align-items: center;
+}
+.wallet{
+    display: flex;
+    margin:8px 10px 8px 0px;
+}
+.wallet img{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.wallet-amount{
+    margin: 8.5px 10px 8.5px 3px ;
+    color: #212121  
+}
+.wallet-details{
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+.notification-icon{
+    padding:8px;
+}
+.wallet-details h4{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    color:#FAFBFC;
+    padding:12px;
+    border: none;
+    border-radius: 360px;
+    background-color: #01835E;
+    max-width: 85px;
+}
+.nav-button{
+    display: flex;
+    align-items: center;
+    padding:8px;
+    margin-right: 8px;
+}
+.nav-button img {
+    padding:8px 0px 8px 8px;
+    margin-right: 8px;
+}
+.userinfo{
+    display: flex;
+    flex-direction: column;
+    margin:3px 8px 3px 0px;
+}
+.userinfo p{
+    color:#00497A ;
+  
+}
+.subnav{
+    background-color:#00497A ;
+    display: flex;
+}
+.subnav-toggle{
+    display: none;
+}
+.subnav ul{
+margin:4px 0px 4px 60px; /*440*/
+display: flex;
+align-items: center;
+list-style: none;
+padding:0px;
+}
+.my-benefits{
+    margin-left: 0px !important;
+}
+.benefits li a{
+    padding:11px 0px 12px 11px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    color:#FAFBFC;
+    align-items: center;
+    text-decoration: none;
+}
+.dropdown-icon{
+    padding:11px 0px 11px 12px;
+    margin-left: 0px !important; 
+}
+.dropdown-icon img{
+    margin-left: 3px; 
+}
+.dropdown-icon-image{
+    padding:10px 0px 10px 12px !important;
+}
+.benefits li:last-child{
+    margin-right:0px;   
+}
+.mycard::before {
+    content: "";
+    display: inline-block;
+    background:url(../../images/section/My\ Card\ Icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    width:20px;
+    height:20px;
+    vertical-align: middle; 
+  }
+  .mycard::after {
+    content: "";
+    display: inline-block;
+    background:url(../../images/section/Shop\ All\ Dropdown.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 6px;
+    margin-left: 3px;
+    width:16px;
+    height:16px;
+    vertical-align: middle; 
+  }
+.sparkle-logo{
+display: flex;
+align-items: center;
+margin-left:6px ;
+}
+.sparkle-logo p{
+margin-right: 4px;
+margin-left:6px ;
+}
+.sparkle-logo img{
+    width: 20px;
+    height: 20px;
+}
+.dropdown-icon{
+    margin-right: 6px;
+    margin-left: 3px;  
+}
+.user-title{
+    color:#00497A;
+}
+
+@media (min-width:1025px) and (max-width:1440px){
+    .navbar {
+        max-height:100%;
+    } 
+    .navbar-left, .navbar-actions {
+        padding: 12px 30px;
+    }
+    .logo {
+        margin-right: 0px;
+    }
+    .navbar-actions {
+        margin: 0px;
+    }
+    .subnav ul {
+        margin: 4px 0px 4px 0px;
+        justify-content: space-evenly;
+        width:100%;
+    }
+    .my-benefits{
+        margin-left: 0px !important;
+    } 
+}
+@media (min-width:768px) and (max-width:1024px){
+    .navbar {
+        max-height:100%;
+    } 
+    .navbar-left, .navbar-actions {
+        padding: 12px 30px;
+    }
+    .logo {
+        margin-right: 0px;
+    }
+    .searchbar {
+        width: 100%;
+    }
+    .navbar-actions {
+        margin: 0px;
+    }
+    .subnav ul {
+        margin: 4px 0px 4px 0px;
+        justify-content: space-evenly;
+        width:100%;
+    }
+    .my-benefits{
+        margin-left: 0px !important;
+    }    
+}
+@media (min-width:481px) and (max-width:767px){
+    .navbar {
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-height:100%;
+    } 
+    .navbar-left, .navbar-actions {
+        padding: 10px 30px;
+    }
+    .logo {
+        margin-right: 0px;
+    }
+    .searchbar {
+        width: 100%;
+    }
+    .navbar-actions {
+        margin: 0px;
+    }
+    .subnav {
+       flex-direction: column;
+       align-items: center;
+    }
+    .subnav ul {
+        margin: 4px 0px 4px 0px;
+        justify-content: space-evenly;
+        width:100%;
+    }
+    .my-benefits{
+        margin-left: 0px !important;
+    }   
+}
+@media (max-width:480px){
+    .navbar {
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-height:100%;
+    } 
+    .navbar-left {
+        flex-direction: column;
+        padding: 10px 20px;
+        gap:30px;
+    }
+    .logo {
+        width:100%;
+        gap:25px;
+        margin-right: 0px;
+        margin-top: 10px;
+        justify-content: space-between;
+    }
+    .nb-logo{
+        display: block;
+        margin: 4px 0px 4px 0px!important;  
+    }
+    .searchbar {
+        max-width:100%;
+        height: auto;
+    }
+    .navbar-actions {
+        padding:10px 20px;
+        margin: 0px;
+        justify-content: space-between;
+    }
+    .subnav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width:70%;
+        flex-direction: column;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        z-index: 5;
+        padding-top: 60px;
+      }
+      .subnav.show-subnav {
+        display: block;
+        transform: translateX(0);
+    }
+    .subnav ul {
+        margin: 4px 0px 4px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0;
+        padding-left: 20px;
+    }
+    .subnav ul li, .dropdown-icon, .dropdown-icon-image{
+        margin: 0px !important;
+        margin-bottom: 30px !important; 
+        padding: 0px !important;
+    }
+    .my-benefits{
+        margin-left: 0px !important;
+    }
+    .subnav-toggle{
+        background: none;
+        display: block;
+        cursor: pointer;
+        z-index: 1000;
+    }
+    .main-con-tent-section{
+        margin-top:208px;
+    }
+    
+}
+
+
+             
+/*section-1*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    font-family:"proxima-nova";
+}
+P, h1, h2, h3, h4, h5, h6{
+   margin:0px; 
+}
+.Content-area{
+    background:linear-gradient(98.05deg, #005A96 7.74%, #015E9D 94.97%);   
+}
+.Banner-section{
+    display:flex;
+    border-bottom: 1px solid #005A96;
+    max-height:224px;
+}
+.main-container{
+padding:32px 10px 43px 60px;
+color:#FAFBFC;
+}
+.image-container{
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    background:radial-gradient(rgba(255, 255, 255, 0.9), #015E9D);
+}
+.title{
+    position:static !important;
+}
+.header-title{
+    font-weight: 700;
+    font-style: bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    margin-bottom:8px;
+}
+.sub-title{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    margin-bottom:24px;
+}    
+.secondary-butn { 
+    padding:0px;
+    border:0px;    
+}
+.btn-second{
+    color: #00497A;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    background-color: #fff;
+    padding:14px 32px;
+    border-radius: 4px; 
+    border:1px solid #00497A;
+}
+.body-section{
+    padding:32px 60px;
+    background-color: #fff;
+}
+.body-section h2, h4{
+text-align: center;
+margin-bottom: 4px;
+margin-top: 0px;;
+}
+.home-health-care{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.body-title{
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    color:  #212121;
+}
+.body-subtitle{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    color:#646F7D;   
+}
+.home-health-care p{
+    margin-top: 12px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    color: #212121;
+}
+.home-health-care div{
+margin-right: 16px;
+}
+.home-health-care img{
+border:1px solid #E8E9EB;
+border-radius: 3.27px;
+width:auto;
+}
+@media (min-width:1025px) and (max-width:1440px ) {
+
+    .main-container {
+        padding: 32px 10px 43px 60px;
+    }
+
+    .header-title {
+        font-size: 22px;
+        line-height: 100%;
+    }
+
+    .sub-title {
+        font-size: 15px;
+        margin-bottom: 22px;
+    }
+
+    .btn-second {
+        font-size: 14px;
+        padding: 12px 28px;
+    }
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .body-section {
+        padding: 30px 50px;
+        margin-top: 0px;
+    }
+
+    .home-health-care {
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: space-between;
+    }
+
+    .home-health-care > div {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: calc(20%);
+        text-align: center;
+    }
+
+    .home-health-care img {
+        width: 100%;
+        height: auto;
+    }
+
+    .body-title {
+        font-size: 20px;
+    }
+
+    .body-subtitle {
+        font-size: 15px!important;
+    }
+}
+@media (min-width:768px) and (max-width:1024px ) {
+
+    .main-container {
+        padding: 28px 8px 40px 50px;
+    }
+
+    .header-title {
+        font-size: 22px;
+        line-height: 100%;
+    }
+
+    .sub-title {
+        font-size: 15px;
+        margin-bottom: 22px;
+    }
+
+    .btn-second {
+        font-size: 14px;
+        padding: 12px 28px;
+    }
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .body-section {
+        padding: 30px 50px;
+        margin-top: 0px;
+    }
+
+    .home-health-care {
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: space-between;
+    }
+
+    .home-health-care > div {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: calc(30%);
+        text-align: center;
+    }
+
+    .home-health-care img {
+        width: 100%;
+        height: auto;
+    }
+
+    .body-title {
+        font-size: 20px;
+    }
+
+    .body-subtitle {
+        font-size: 15px!important;
+    }
+}
+@media (min-width:481px) and (max-width:767px ) {
+    .Banner-section {
+        flex-direction: column;
+    }
+
+    .main-container {
+        padding: 25px 20px;
+        text-align: center;
+    }
+
+    .header-title {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .sub-title {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .btn-second {
+        font-size: 14px;
+        padding: 12px 28px;
+    }
+
+    .image-container {
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .body-section {
+        padding: 25px 40px;
+        margin-top: 170px;
+    }
+
+    .home-health-care {
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: space-between;
+    }
+
+    .home-health-care > div {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: calc(40%);
+        text-align: center;
+    }
+
+    .home-health-care img {
+        width: 100%;
+        height: auto;
+    }
+
+    .body-title {
+        font-size: 20px;
+        margin-bottom: 10px!important;
+    }
+
+    .body-subtitle {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .Banner-section {
+        flex-direction: column;
+    }
+
+    .main-container {
+        padding: 20px 16px;
+        text-align: center;
+    }
+
+    .header-title {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    .sub-title {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .btn-second {
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+
+    .image-container {
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .body-section {
+        padding: 20px;
+        margin-top: 140px;
+    }
+
+    .home-health-care {
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: space-between;
+    }
+
+    .home-health-care > div {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: calc(50%);
+        text-align: center;
+    }
+
+    .home-health-care img {
+        width: 100%;
+        height: auto;
+    }
+
+    .body-title {
+        font-size: 18px;
+    }
+
+    .body-subtitle {
+        font-size: 14px;
+    }
+}
+
+
+/*section-2*/
+*{
+    box-sizing: border-box;
+}
+h2, p, h3, h4, h5, body {
+    margin:0px;
+    font-family:"proxima-nova";
+}
+.content-area{
+    padding:32px 60px;
+    background:linear-gradient(to right,#00497A,#0065A9) ;
+}
+.header-main{
+    margin-bottom: 24px;
+    color: #FAFBFC;
+}
+.header-main h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    margin-bottom:8px;
+}
+.header-main p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    margin-bottom:24px;   
+}
+.healthbenefits-section, .health-benefits-section {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.benefits-card{
+    background-color:#F5F6F8 ;
+    border-radius:8px;
+    padding-top:24px;
+    padding-left:24px;
+    margin-right:16px ;
+}
+.benefits-card:last-child{
+    margin-right:0px ;
+}
+.title{
+    position:relative;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.benefits-card-header-icon{
+    position: absolute;
+    top:0px;
+    left:168px;
+}
+.price-img-section{
+    display:flex;
+    justify-content: space-between;
+}
+.price-img-section img{
+    display: flex;
+    margin-right:6px;
+    margin-top: 46px;
+    margin-left: 15px;
+}
+.price-section h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom:2px;
+    margin-top:85px; 
+    color: #00497A;
+}
+.price-section p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    margin-bottom:23px;
+    color: #646F7D;  
+}
+.health-benefits-section{
+    margin-top:16px;   
+}
+/* Large screen */
+@media (min-width: 1025px) and (max-width: 1440px){
+    .healthbenefits-section,
+    .health-benefits-section {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .benefits-card {
+        flex: 1 1 ;
+    }
+
+    .price-img-section img {
+        max-width: 160px;
+    }
+
+    .header-icon {
+        left: 168px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .content-area {
+        padding: 32px 40px;
+    }
+
+    .healthbenefits-section,
+    .health-benefits-section {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .benefits-card {
+        flex: 1 1 20%;
+        margin-right: 0;
+    }
+
+    .price-img-section img {
+        max-width: 150px;
+    }
+
+    .header-icon {
+        left: auto;
+        right: 0;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .content-area {
+        padding: 24px 32px;
+    }
+    .header-main h2, .header-main p {
+        text-align: center;   
+    } 
+    .healthbenefits-section,
+    .health-benefits-section {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .benefits-card {
+        flex: 1 1 40%;
+        margin-right: 0;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .header-icon {
+        left: auto;
+        right: 0;
+        width: 24px;
+    }
+
+    .price-img-section img {
+        max-width: 150px;
+        margin: 24px 0 0 0;
+    }
+
+    .price-section h3 {
+        margin-top: 24px;
+        font-size: 18px;
+    }
+
+    .price-section p {
+        font-size: 13px;
+    }
+}
+/*small screen */
+@media (max-width: 480px) {
+    .content-area {
+        padding: 20px;
+    }
+
+    .header-main h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .header-main p {
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .healthbenefits-section,
+    .health-benefits-section {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .benefits-card {
+        margin-right: 0;
+        padding: 16px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .header-icon {
+        left: auto;
+        right: 0;
+        width: 20px;
+        height: auto;
+    }
+    .price-section{
+        margin-bottom: 23px;
+    }
+    .price-img-section {
+        align-items:end;
+    }
+
+    .price-img-section img {
+        margin: 16px 0 0 0;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .price-section h3 {
+        margin-top: 16px;
+        font-size: 18px;
+    }
+
+    .price-section p {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+
+
+
+/*section-3*/
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-family: "proxima-nova";
+}
+.wallet-container{
+    margin:56px 60px 48px 60px;  
+}
+.wallet-info{
+    max-height: 375px;
+}
+.wallet-header{
+    display: flex;
+    justify-content:space-between;
+}
+.header-walletdetails h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    margin:0px 0px 4px 0px;
+}
+p{
+    margin:0px;
+}
+.header-walletdetails p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    color:#646F7D;
+}
+.header-walletactions{
+    max-height: 46px;
+}
+.header-walletactions button{
+height: 46px;
+width:200px;
+margin-top:26px;
+}
+.primarybutton-label{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    color:#FAFBFC; 
+}
+.button1{
+background-color:#D64029 ;
+border: none;
+border-radius: 4px;
+padding:14px 32px ;
+margin-right:8px;
+}
+.button2{
+    background-color:#FFFFFF ;
+    border:1px solid #00497A;
+    border-radius: 4px;
+    padding:14px 32px ;
+    margin-left:8px;
+}
+.secondarybutton-label{
+    color:#00497A;  
+}
+.walletcard-section{
+   display:flex;
+   justify-content: space-between;
+   margin-top:32px;
+   margin-bottom:16px ;
+}
+.walletcard{
+    max-width: 400px;
+    margin-right: 48px;
+}
+.card-info{
+    display:flex;
+    margin-bottom:18px;
+}
+.card-info h6{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    margin: 0;
+    letter-spacing: 0.2px;
+    color:#212121;
+}
+.card-stats{
+    margin-left:12px;
+}
+.card-active{
+    position:relative;
+}
+.card-active p{
+margin-left:20px;
+font-weight: 700;
+font-style: bold;
+font-size: 13px;
+line-height: 100%;
+letter-spacing: 0.2px;
+color:#01835E;
+}
+.card-active p::before {
+    position:absolute;
+    width:8px;
+    height:8px;
+    border-radius: 100%;
+    content: " ";
+    background-color: #01835E;
+    top:3px;
+    left:7px;
+}
+.wallet-information{
+    display:flex;
+    justify-content: space-between;
+    width:424px;
+    height:109px;
+    background-color:#FFFFFF ;
+    border:1px solid#D3D7DB;
+    border-radius: 6px;
+    padding:18px 20px 18px 28px;
+}
+.display-wallet{
+    display: flex;
+    justify-content:flex-end;
+    height:109px;
+    margin-top:16px;
+}
+.wallet-balance-header p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    color:#212121;
+}
+.right-sec-wallet{
+    margin-left:24px;
+}
+.otc{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color:#212121; 
+    margin-bottom:5px;  
+}
+.price{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color:#212121;
+    margin-bottom:3px;
+}
+.expiry, .otc-2{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color:#646F7D;
+    margin-bottom:18px;    
+}
+.card-status-container{
+  margin-top:24px; 
+  display:flex;
+  justify-content: space-between;
+}
+.status-card{
+    display: flex;
+    width:700px;
+    height:56px;
+    justify-content: space-between;
+    align-items: center;
+    padding:16px 24px;
+    border: 1px solid#D3D7DB;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    margin-top: 24px;
+}
+.card-text-img{
+    display: flex;
+}
+.card-text-img p{ 
+    font-weight: 700;
+    font-style: bold;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color:#212121;
+    margin-left:6px;
+}
+.action-cards{
+    display: flex;
+}
+.action-cards p{
+    font-weight: 350;
+    font-style: bold;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    color:#255798;
+    margin-right:16px;
+    text-decoration: underline;
+}
+.position-dot{
+    position:relative;
+}
+.position-dot p{
+    margin-left:12px;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    color:#18A1C7;
+    text-decoration:none;
+}
+.position-dot p::before {
+    position:absolute;
+    width:10px;
+    height:10px;
+    border-radius: 100%;
+    content: " ";
+    background-color:#18A1C7;
+    top:2px;
+    left:0px;
+    right:4px;  
+}
+@media (min-width:1025px) and (max-width:1440px){
+    .wallet-container{
+        margin:56px 60px 48px 60px;  
+    }
+    .wallet-info{
+        max-height: 375px;
+    }
+    .wallet-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-walletdetails h4{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 100%;
+        margin:0px 0px 4px 0px;
+    }
+    p{
+        margin:0px;
+    }
+    .header-walletdetails p{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+        letter-spacing: 0.2px;
+        color:#646F7D;
+    }
+    .header-walletactions{
+        max-height: 46px;
+    }
+    .header-walletactions button{
+    height: 46px;
+    width:200px;
+    margin-top:26px;
+    }
+    .primarybutton-label{
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 100%;
+        letter-spacing: 0.2px;
+        color:#FAFBFC; 
+    }
+    .button1{
+    background-color:#D64029 ;
+    border: none;
+    border-radius: 4px;
+    padding:14px 32px ;
+    margin-right:8px;
+    }
+    .button2{
+        background-color:#FFFFFF ;
+        border:1px solid #00497A;
+        border-radius: 4px;
+        padding:14px 32px ;
+        margin-left:8px;
+    }
+    .secondarybutton-label{
+        color:#00497A;  
+    }
+    .walletcard-section{
+       display:flex;
+       justify-content: space-between;
+       margin-top:32px;
+       margin-bottom:16px ;
+    }
+    .walletcard{
+        max-width: 400px;
+    }
+    .card-info{
+        display:flex;
+        margin-bottom:18px;
+    }
+    .card-info h6{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 100%;
+        margin: 0;
+        letter-spacing: 0.2px;
+        color:#212121;
+    }
+    .card-stats{
+        margin-left:12px;
+    }
+    .card-active{
+        position:relative;
+    }
+    .card-active p{
+    margin-left:20px;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    color:#01835E;
+    }
+    .card-active p::before {
+        position:absolute;
+        width:8px;
+        height:8px;
+        border-radius: 100%;
+        content: " ";
+        background-color: #01835E;
+        top:3px;
+        left:7px;
+    }
+    .wallet-information{
+        display:flex;
+        justify-content: space-between;
+        width:424px;
+        height:109px;
+        background-color:#FFFFFF ;
+        border:1px solid#D3D7DB;
+        border-radius: 6px;
+        padding:18px 20px 18px 28px;
+    }
+    .display-wallet{
+        display: flex;
+        justify-content:flex-end;
+        height:109px;
+        margin-top:16px;
+    }
+    .wallet-balance-header p{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 100%;
+        letter-spacing: 0.2px;
+        color:#212121;
+    }
+    .right-sec-wallet{
+        margin-left:24px;
+    }
+    .otc{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        color:#212121; 
+        margin-bottom:5px;  
+    }
+    .price{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color:#212121;
+        margin-bottom:3px;
+    }
+    .expiry, .otc-2{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 0.2px;
+        color:#646F7D;
+        margin-bottom:18px;    
+    }
+    .card-status-container{
+      margin-top:24px; 
+      display:flex;
+      justify-content: space-between;
+    }
+    .status-card{
+        display: flex;
+        width:700px;
+        height:56px;
+        justify-content: space-between;
+        align-items: center;
+        padding:16px 24px;
+        border: 1px solid#D3D7DB;
+        border-radius: 4px;
+        background-color: #FFFFFF;
+        margin-top: 24px;
+    }
+    .card-text-img{
+        display: flex;
+    }
+    .card-text-img p{ 
+        font-weight: 700;
+        font-style: bold;
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color:#212121;
+        margin-left:6px;
+    }
+    .action-cards{
+        display: flex;
+    }
+    .action-cards p{
+        font-weight: 350;
+        font-style: bold;
+        font-size: 13px;
+        line-height: 100%;
+        letter-spacing: 0.2px;
+        color:#255798;
+        margin-right:16px;
+        text-decoration: underline;
+    }
+    .position-dot{
+        position:relative;
+    }
+    .position-dot p{
+        margin-left:12px;
+        font-weight: 700;
+        font-style: bold;
+        font-size: 13px;
+        line-height: 100%;
+        letter-spacing: 0.2px;
+        color:#18A1C7;
+        text-decoration:none;
+    }
+    .position-dot p::before {
+        position:absolute;
+        width:10px;
+        height:10px;
+        border-radius: 100%;
+        content: " ";
+        background-color:#18A1C7;
+        top:2px;
+        left:0px;
+        right:4px;  
+    }
+}
+@media (min-width:769px) and (max-width:1024px) {
+    .wallet-container{
+        margin:50px 55px;  
+    }
+    .header-walletdetails h4{
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .header-walletdetails p{
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .header-walletactions button{
+        padding:13px 30px;
+    }
+
+
+    .primarybutton-label, .secondarybutton-label{
+            font-size: 14px;
+        }
+        .walletcard-section{
+            flex-direction: row;
+            margin-bottom:16px ;
+            margin-top: 50px;
+         }
+         .walletcard{
+            margin-right: 48px;
+         }
+         .card-info{
+           align-items: center;
+           margin-top: 10px;
+           max-width: 100%;
+        }
+        .card-number, .card-stats, .card-active{
+        text-align: start;
+        }
+        .card-image img{
+        height: auto;
+        max-width: 100%;
+        flex:1 1 0%;
+        }
+        .wallet-balance-header p{
+            text-align: center;
+        }
+        .display-wallet{
+            flex-wrap: wrap;
+            height:auto;
+            margin-top:30px;
+            gap:16px
+        }
+        .right-sec-wallet{
+            margin-left:0px;
+        }
+        .wallet-information{
+            width:100%;
+            flex: 1 1 calc(25% -24px);
+            height:auto;
+            padding:15px 23px;
+        }
+        .price{
+            font-size: 18px;
+        }
+        .expiry{
+            margin-bottom:5px;    
+        }
+        .card-status-container{
+            margin-top:24px; 
+            flex-wrap: wrap;
+            flex:1 1 50%;
+          }
+          .status-card{
+            flex-wrap: wrap;
+            flex:1 1 40% ;
+            width:fit-content;
+            height:auto;
+            justify-content:center;
+            align-items: center;
+            padding:14px 22px;
+            margin-right: 24px;
+        }
+        .status-card:last-child{
+            margin-right: 0px;
+        }
+        .card-text-img{
+            margin-right: 5px;
+            align-items: center;
+        }
+        .card-text-img img{
+            height:auto;
+            flex:1 1 0%;
+        }
+        .card-text-img p{ 
+            font-size: 14px;
+            line-height: 20px;
+            margin-right: 10px;
+        }
+        .action-cards{
+          align-items: center;
+          margin-top: 10px;
+        }
+        .action-cards p{
+            font-size: 13px;
+        }
+       
+}
+@media (min-width:481px) and (max-width:768px) {
+    .wallet-container{
+        margin:40px 50px;  
+    }
+    .wallet-header{
+        text-align: start;
+        gap:98px;
+    }
+    .header-walletdetails h4{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .header-walletdetails p{
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .header-walletactions button{
+        padding:12px 25px;
+        margin-top:15px;
+        margin-left: auto;
+        width:100%;
+        }
+        .primarybutton-label, .secondarybutton-label{
+            font-size: 13px;
+        }
+        .walletcard-section{
+            display:flex;
+            flex-direction: column;
+            margin-top:32px;
+            margin-bottom:16px ;
+         }
+         .card-info{
+            justify-content:center;
+           align-items: center;
+           margin-top: 10px;
+           max-width: 100%;
+        }
+        .card-number, .card-stats, .card-active{
+        text-align: center;
+        }
+        .walletcard{
+            max-width: 100%;
+            margin-right: 0px;
+       
+        }
+        .card-image img{
+        height: auto;
+        max-width: 100%;
+        flex:1 1 0%;
+        }
+        .wallet-balance-header p{
+            margin-top: 20px;
+            text-align: center;
+        }
+        .display-wallet{
+            flex-direction:row;
+            flex-wrap: wrap;
+            justify-content:space-between;
+            height:auto;
+            margin-top:30px;
+            gap:16px
+        }
+        .right-sec-wallet{
+            margin-left:0px;
+        }
+        .wallet-information{
+            max-width: 100%;
+            flex: 1 1 calc(50% -24px);
+            height:auto;
+            padding:15px 23px;
+        }
+        .price{
+            font-size: 18px;
+        }
+        .expiry{
+            margin-bottom:5px;    
+        }
+        .card-status-container{
+            margin-top:24px; 
+            flex-direction: column;
+            justify-content:center;
+          }
+          .status-card{
+            max-width:100%;
+            height:auto;
+            justify-content:space-between;
+            align-items: center;
+            padding:14px 22px;
+        }
+        .card-text-img{
+            margin-right: 5px;
+            align-items: center;
+        }
+        .card-text-img img{
+            height:auto;
+            flex:1 1 0%;
+        }
+        .card-text-img p{ 
+            font-size: 14px;
+            line-height: 20px;
+            margin-right: 10px;
+        }
+        .action-cards{
+          align-items: center;
+        }
+        .action-cards p{
+            font-size: 13px;
+        }
+       
+}
+@media (max-width:480px){
+    .wallet-container{
+        margin:20px 30px;  
+    }
+    .wallet-header{
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-walletdetails h4{
+        font-size: 18px;
+    }
+    .header-walletdetails p{
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .header-walletactions{
+        margin-bottom: 20px;
+    }
+    .header-walletactions button{
+        padding:10px 20px;
+        margin-top:15px;
+        margin-left: auto;
+    
+        }
+        .primarybutton-label, .secondarybutton-label{
+            font-size: 12px;
+        }
+        .walletcard{
+            margin-right: 0px;
+            margin-top: 30px;
+        }
+        .walletcard-section{
+            display:flex;
+            flex-direction: column;
+            margin-top:32px;
+            margin-bottom:16px ;
+         }
+         .card-info{
+           justify-content: center;
+           margin-top: 10px;
+        }
+        .card-image img{
+        height: auto;
+        max-width: 100%;
+        flex:1 1 100%;
+        }
+        .wallet-balance-header p{
+            margin-top: 20px;
+            text-align: center;
+        }
+        .display-wallet{
+            flex-direction: column;
+            justify-content:center;
+            height:auto;
+            margin-top:20px;
+        }
+        .right-sec-wallet{
+            margin-left:0px;
+            margin-top: 20px;
+        }
+        .wallet-information{
+            max-width:100%;
+            height:auto;
+            padding:10px 20px;
+        }
+        .price{
+            font-size: 16px;
+        }
+        .expiry{
+            margin-bottom:5px;    
+        }
+        .card-status-container{
+            margin-top:24px; 
+            flex-direction: column;
+            justify-content:center;
+          }
+          .status-card{
+            display: flex;
+            max-width:100%;
+            height:auto;
+            justify-content: center;
+            align-items: center;
+            padding:10px 20px;
+        }
+        .card-text-img{
+            margin-right: 5px;
+        }
+        .card-text-img p{ 
+            font-size: 14px;
+            line-height: 20px;
+            margin-right: 10px;
+        }
+        .action-cards{
+          align-items: center;
+        }
+        .action-cards p{
+            font-size: 12px;
+        }
+        .card-text-img img{
+            height:auto;
+            flex:1 1 0%;
+        }
+}        
+
+
+/*section-4*/
+*{
+    box-sizing: border-box;
+}
+body, h1, h2, h3, h4, p{
+    margin:0px;
+    font-family: "proxima-nova";
+  
+}
+.walmart-section{
+    padding:32px 60px;
+    border-top:1px solid #E9ECF0;
+    border-bottom:1px solid #E9ECF0;
+    background: url('../images/Market\ Pattern.png'), #FFFFFF;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo p{
+    color:#646F7D;
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    margin-top: 12px;
+}
+.active-button{
+padding:15px 32px 13px 32px;
+color:#00497A;
+border:1px solid#00497A;
+border-radius: 4px;
+font-size: 15px;
+font-weight: 700px;
+line-height: 100%;
+letter-spacing: 0.2px;
+text-align: center;
+max-height:46px;
+align-items: center;
+margin-top:13.5px;
+background-color: #FAFBFC;
+}
+.cards-section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    padding:4px 4px 16px 4px;
+    background-color: #EAEEF5;
+    border:1px solid#E8E9EB;
+    border-radius: 4px;
+    margin-right: 24px;
+    width:100%;
+    overflow: hidden;
+    transition: transform 0.7s ease;
+}
+.card:hover .banner-img img {
+    transform: scale(1.2);
+    transition: transform 0.7s ease;
+}
+.card:last-child{
+    margin-right: 0;
+}
+
+.image-area{
+    width:100%;
+    border-bottom: 1px solid#E8E9EB;
+    background-color: white;
+}
+.card-logo{
+    display: flex;
+    justify-content: space-between;
+    max-height: 32px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.retailer-logo, .action-logo{
+height:20px;
+width:35px;
+}
+.card:hover .action-logo{
+    display:block  !important;
+}
+.slick-slide .action-logo{
+display:none ;
+}
+.image-placeholder{
+
+    width:100%;
+    padding: 16px; 
+}
+.banner-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-details{
+    padding:10px 8px;
+    
+}
+.product-details-top{
+    height:100px;
+}
+
+.retailer-item{
+    color:#646F7D;
+    font-size: 13px;
+    font-weight: 400px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    margin-bottom: 6px;
+}
+.Product-name{
+    color:#212121;
+    font-size: 15px;
+    font-weight: 700px;
+    font-style: bold;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    margin-bottom: 6px;  
+}
+.quantity{
+    color:#646F7D;
+    font-size: 11px;
+    font-weight: 500px;
+    line-height: 100%;
+    letter-spacing: 0.2px; 
+}
+.wallet{
+    display:flex; 
+}
+.wallet-icon {
+    margin-right: 2px;
+    margin-left: 2px;
+    max-height: 14px;
+    max-height: 14px;
+}
+.medicare{
+    color:#646F7D;
+    font-size: 13px;
+    font-weight: 400px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    margin:0px;
+}
+.price-line{
+    color:#212121;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+}
+.add-to-cart-button{
+    position:relative;
+    padding:16px 0px 0px 0px;
+    display:flex;
+    justify-content: space-between;
+}
+.primary-button{
+    padding:11px 24px 10px 24px; 
+    background-color: #D64029;
+    border:none;
+    border-radius: 4px;
+    color:#FAFBFC;
+    width: 100%;
+    margin-left:0px;
+}
+.slick-dots{
+    bottom:-50px !important;
+    width:auto !important;
+    left:50%
+}
+.cart-img{
+    position: absolute;
+    top:23.5px;
+    left:69.5px;
+}
+.slider{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.slider-controls{
+    color:#212121;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    border:1px solid #D3D7DB;
+    border-radius: 5px;
+}
+.prev-slide{
+    padding:7px 10px 7px 6px;
+    background-color:#FFFFFF ;
+    border: none;
+}
+.next-slide{
+    padding:7px 6px 7px 10px;
+    background-color:#FFFFFF ;
+    border: none;
+}
+@media (min-width:1025px) and (max-width: 1440px) {
+    .walmart-section {
+        padding: 32px 60px;
+    }
+    .slick-dots{
+        left:45%;
+    }
+    .cart-img {
+        left: 25px;
+    }
+}
+@media (min-width:768px) and (max-width: 1024px) {
+    .walmart-section {
+        padding: 27px 50px;
+    }
+    .header-logo p {
+        font-size: 15px;
+    }
+    .slick-dots{
+        left:45%;
+    }
+    .cart-img {
+        left: 25px;
+    }
+    .card:hover .banner-img img {
+        transform: scale(1.1);
+        transition: transform 0.1s ease;
+    }
+
+}
+@media (min-width:480px) and (max-width: 767px) {
+    .walmart-section {
+        padding: 20px 40px;
+    }
+    .header-section {
+        display: block;
+    }
+    .header-logo, .active-button{
+        text-align: center;
+    }
+    .header-logo p {
+        font-size: 14px;
+    }
+    .active-button{
+        padding: 12px 24px;
+        font-size: 13px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cards-section {
+        margin-top: 50px;
+    }
+    .slick-dots{
+        left:40%;
+    }
+    .cart-img {
+        left: 29.5px;
+    }
+    .card:hover .banner-img img {
+        transform: scale(1.1);
+        transition: transform 0.7s ease;
+    }
+
+}
+@media (max-width: 480px) {
+    .walmart-section {
+        padding: 15px 30px;
+    }
+    .header-section {
+        display: block;
+    }
+    .header-logo, .active-button{
+        text-align: center;
+    }
+    .header-logo p {
+        font-size: 13px;
+    }
+    .active-button{
+        padding: 10px 20px;
+        font-size: 12px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cards-section {
+        margin-top: 30px;
+    }
+    .slick-dots{
+        left:25%
+    }
+    .cart-img {
+        left: 29.5px;
+    }
+    .card:hover .banner-img img {
+        transform: scale(1.1);
+        transition: transform 0.7s ease;
+    }}
+
+
+
+
+/*section-5*/
+*{
+    box-sizing: border-box;
+}
+body, h1, h2, h3, h4, h5, h6, p {
+    margin:0px;
+    font-family:"proxima-nova";
+}
+.main-section{
+    background-color:#fff ;
+    display: flex; 
+}
+.footer{
+    margin:40px 24px 40px 60px;
+}
+.contact-social-links-section{
+    display:flex;
+    margin-top: 24px;
+    max-height: 297px;
+}
+.contact-details{
+margin-right: 24px;
+}
+.contact-details h3{
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color:#212121;
+margin-bottom: 8px;      
+}
+.call{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color:#212121;
+    margin-bottom: 8px; 
+}
+.text-same{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    color:#212121; 
+}
+.hoursof-operation{
+    margin-top: 8px;
+    margin-bottom: 19px;
+    margin-right: 72px;
+}
+.nb-llc{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    color:#212121;
+    margin-bottom: 19px;   
+}
+.social-media-icons{
+    margin-bottom:28px ;
+}
+.social-media-icons img {
+margin-right: 8px;
+}
+.quick-legal-section{
+    display:flex;
+}
+.link-text{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    color:#212121;
+    margin-bottom: 4px;    
+}
+.border-line{
+    margin-bottom:5px ;
+    margin-left: 2px;
+}
+.quick-links{
+    margin-right: 24px;
+}
+.frame-qlinks{
+    margin-right: 117px;
+}
+.quick-links p{
+    margin-bottom:20px;   
+}
+.find-my-benefits-text{
+    margin-top:20px;          ;
+}
+.border-lines{
+    margin-bottom:8px ;
+    margin-left: 2px;   
+}
+.legal-links{
+    margin-right: 24px;
+    margin-bottom:7px;
+}
+.terms-conditions-text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    color:#212121; 
+    margin-right: 130px;   
+}
+.terms-conditions{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color:#212121; 
+}
+.copyrights{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    color:#212121; 
+    margin-top:24px    
+}
+.language-badges-section{
+    margin:40px 60px 40px 0px;
+}
+.badge-header{
+    display: flex;
+    padding:8px 12px;
+    border:1px solid #B1B9C1;
+    border-radius: 4px;
+    margin-bottom: 28px;
+    width:fit-content;
+}
+.badge-header img{
+    margin-right: 8px;
+}
+.badge-header h5{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color:#00497A;
+    text-align: center; 
+}
+.badge-contact img{
+    margin-bottom:32px ;
+    margin-right: 109px;
+}
+.badge-contact{
+    margin-bottom:12px ;  
+}
+.card-related-enquiry{
+    margin-bottom: 4px;
+}
+.contact-number{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+    color:#212121;
+    margin-bottom: 12px;
+}
+
+@media (max-width:480px){
+    .main-section{
+    flex-direction: column;
+    }
+    .footer{
+        margin:20px 30px;
+    }
+    .nb-logo{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-social-links-section{
+        flex-direction: column;
+        max-height:100%;
+    }
+    .contact-details{
+        margin-right: 0px;
+    }
+    .contact-details-header{
+        text-align: center;
+        margin: 10px 0px 20px 0px;
+    }
+    .social-media-icons {
+    display:flex;
+    align-items: center;
+    gap: 8px;
+    }
+    .quick-legal-section {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .quick-links, .legal-links{
+        margin:0px;
+    }
+    .border-line{
+        margin:0px;
+    }
+    .language-badges-section{
+        margin:20px 30px;
+    }
+    .links-header{
+    text-align: center;
+    margin-top: 20px;
+    }
+    .badge-header, .badge-contact {
+       margin-left: auto;
+       margin-right: auto;
+    }
+}
+@media (min-width:481px) and (max-width:767px){
+    .main-section{
+    flex-direction: column;
+    }
+    .footer, .language-badges-section{
+        margin:30px 45px;
+    }
+    .nb-logo{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-social-links-section{
+        flex-direction: column;
+        max-height:100%;
+    }
+    .contact-details{
+        margin-right: 0px;
+    }
+    .social-media-icons {
+    display:flex;
+    align-items: center;
+    gap: 8px;
+    }
+    .quick-legal-section{
+        justify-content: space-between;
+    }
+    .quick-links, .legal-links{
+        margin:0px;
+    }
+    .badge-header, .badge-contact {
+       margin-left: auto;
+       margin-right: auto;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .main-section{
+    flex-direction: column;
+    }
+    .footer{
+        margin:35px 50px;
+    }
+    .nb-logo{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-social-links-section{
+        margin-top:40px ;
+    }
+    .contact-details{
+        margin-right: 0px;
+    }
+    .social-media-icons {
+    display:flex;
+    align-items: center;
+    gap: 8px;
+    }
+    .language-badges-section{
+        margin:35px 50px;
+        margin-top: 150px;
+    }
+    .quick-links, .legal-links{
+        margin:0px;
+    }
+    .badge-contact{
+      display:flex;
+      align-items: center;
+ 
+    }
+}
+@media (min-width:1025px) and (max-width:1440px){
+    .social-media-icons {
+    display:flex;
+    align-items: center;
+    gap: 8px;
+    }
+    .quick-links, .legal-links{
+        margin:0px;
+    }
+}
+
