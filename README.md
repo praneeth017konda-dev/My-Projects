@@ -27,7 +27,7 @@
 ---
 
 ### 🚀 Projects Showcase  
-✨ Some highlighted works I’ve done (add your repo links here):  
+✨ Some highlighted works I’ve done (https://github.com/praneeth017konda-dev/raneeth017konda-dev):  
 - 🎨 **Figma to React Conversion** → Pixel-perfect responsive design.  
 - 📱 **Landing Pages** → Clean UI with Tailwind & Bootstrap.  
 - 🛒 **E-commerce UI** → Modern shopping experience built with React.  
