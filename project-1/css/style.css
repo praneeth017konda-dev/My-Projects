@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+}
+body, h1, h2, h3, h4, h5, h6, p, a, ul, li{
+    margin: 0px;
+    font-family: "proxima-nova";
+}
+.solutions-section{
+    padding: 120px 40px;
+    display: flex;
+    flex-direction: column;
+    gap:60px;
+    background-color:#F5F6F9;
+}
+.contentarea{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    align-items: center;
+    justify-content: center;
+}
+.contentarea h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color:black;
+    margin-bottom: 24px;
+    position: relative;
+    max-width: 817px;
+}
+.contentarea h1::after{
+    content:'';
+    position: absolute;
+    bottom:-24px;
+    width:62.97px;
+    max-width: 100%;
+    height:1.88px;
+    background-color:#BA0C2F;
+    margin-left:48%;
+    display: block;
+}
+.contentarea p{
+    max-width: 930px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color:black;
+}
+.products-section{
+    width:1840px;
+    height:678px;
+    display: flex;
+    gap:24px;
+}
+.products{
+    width:597px;
+    height:678px;
+    display:flex;
+    flex-direction: column;
+    gap:17px;
+    box-shadow: 0px 0px 47.1px 0px #0000001A;
+    background-color:#FFFFFF ;
+    border-radius: 16px;
+}
+.Box-1{
+    margin-left:107.33px ;
+    padding:49px 52px;
+}
+.Box-2{
+    margin:0 53.67px ;
+    padding:49px 46px;
+}
+.Box-3{
+    margin-right:107.33px ;
+    padding:49px 27px;
+}
+.feature-logo{
+    width:305px;
+    height:223px;
+    display: block;
+    margin: 0 auto;
+}
+.feature-logo img{
+    max-width:100%;
+    max-height:100%;
+}
+.products-content h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color:#00497A;
+    text-align: center;   
+}
+.products-content p{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1.5px;
+    color:#222B2FA3;
+    text-align: center;   
+}
+.list-items-section-2{
+    list-style: none;
+    padding:24px 24px 0px 24px;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+.list{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color:#222B2F;
+    text-align:start; 
+    position: relative;    
+}
+.list::after{
+    position: absolute;
+    content:'';
+    top:0px;
+    left:-23.62px;
+    background: url(../images/section-2/checkmark-coral.png) no-repeat;
+    width:15.62px;
+    height:22.5px;
+    display: block;
+}
+@media (max-width:1440px){
+    .solutions-section{
+        padding: 120px 40px;
+    }
+    .contentarea p{
+        max-width: 850px;
+    }
+    .products-section{
+        width:1360px;
+        height:714px;
+        flex-wrap: wrap;
+        flex-shrink: 1;
+        flex-grow: 1;
+    }
+    .products{
+        width:437px;
+        height:714px;
+        box-shadow: 0px 0px 47.1px 0px #0000001A;
+    }
+    .Box-1{
+        margin-left:0px ;
+        padding:49px 24px;
+    }
+    .Box-2{
+        margin:0;
+        padding: 49px 24px;
+    }
+    .Box-3{
+        margin-right:0px ;
+        padding:49px 24px;
+    }
+}
+@media (max-width:1024px){
+    .solutions-section{
+        padding:60px 40px;
+        gap:32px;
+    } 
+    .contentarea{
+        max-width: 480px;
+        margin: auto;
+        gap:12px;
+    }
+    .contentarea h1{
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 42px;
+        margin-bottom: 12px;
+        max-width: 100%;
+        text-align: center;
+    }
+    .contentarea h1::after{
+        bottom:-12px;
+    }
+    .contentarea p{
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .products-section{
+        width:754px;
+        height:auto;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .products{
+        width:754px;
+        height:368.5px;
+        box-shadow: 0px 0px 47.1px 0px #0000001A;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap:24px;
+    }
+    .Box-1, .Box-2, .Box-3{
+        padding:38px;
+    } 
+    .feature-logo{
+        width:327px;
+        margin:auto 0;
+    }
+    .products-content h3, .products-content p{
+        text-align: start;   
+    }
+    .list{
+        font-size: 16px;
+        line-height: 22px; 
+    }
+}
+@media (max-width:480px){
+    .solutions-section{
+        padding:60px 16px;
+    } 
+    .contentarea h1::after{
+       margin-left: 40%;
+    }
+    .feature-logo{
+        width:295px;
+        margin: 0 auto;
+    }
+    .Box-1, .Box-2, .Box-3{
+        padding:24px;
+    } 
+    .products-section{
+        width:343px;
+        height:auto;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .products{
+        max-width:343px;
+        height:100%;
+        flex-direction:column;
+    }   
+}
